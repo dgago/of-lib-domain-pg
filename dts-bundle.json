@@ -1,0 +1,5 @@
+{
+  "name": "of-lib-domain-pg",
+  "main": "./dist/@types/index.d.ts",
+  "out": "../index.d.ts"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "of-lib-domain-pg",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "Diego Gago",
+    "email": "diego@dgago.com",
+    "url": "https://dgago.com/"
+  },
+  "main": "dist/index.js",
+  "keywords": [],
+  "scripts": {
+    "build": "build.bat",
+    "start": "tsc-watch --onSuccess \"npm t\"",
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "",
+    "@types/node": "",
+    "@types/pg": "^7.4.10",
+    "jest": "",
+    "prettier": "",
+    "ts-jest": "",
+    "tsc-watch": "",
+    "tslint-config-prettier": "",
+    "typescript": ""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^7.4.3"
+  }
+}
